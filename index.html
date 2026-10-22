@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egrow - Ιστοσελίδες & eShop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Egrow</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Αρχική</a></li>
+                <li><a href="#services" class="nav-link">Υπηρεσίες</a></li>
+                <li><a href="#packages" class="nav-link">Πακέτα</a></li>
+                <li><a href="#contact" class="nav-link">Επικοινωνία</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="word">Δημιουργούμε</span>
+                <span class="word">Ιστοσελίδες</span>
+                <span class="word">που Πουλάνε</span>
+            </h1>
+            <p class="hero-subtitle">Σύγχρονες λύσεις για το ηλεκτρονικό εμπόριό σας</p>
+            <a href="#packages" class="cta-button">Δείτε τα Πακέτα μας</a>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+            <div class="gradient-blob blob-3"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Οι Υπηρεσίες μας</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Ιστοσελίδες</h3>
+                    <p>Σύγχρονες, responsive ιστοσελίδες που εντυπωσιάζουν και μετατρέπουν επισκέπτες σε πελάτες.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛍️</div>
+                    <h3>eShop</h3>
+                    <p>Πλήρες σύστημα ηλεκτρονικού καταστήματος με ασφαλείς πληρωμές και διαχείριση αποθέματος.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Βελτιστοποίηση</h3>
+                    <p>Ταχύτητα, SEO, και user experience που κάνει τη διαφορά στη διαδικτυακή παρουσία σας.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">Τα Πακέτα μας</h2>
+            <div class="packages-grid">
+                <!-- Starter Package -->
+                <div class="package-card starter">
+                    <div class="package-header">
+                        <h3>Starter</h3>
+                        <p class="package-subtitle">Για νέες επιχειρήσεις</p>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">€</span>
+                        <span class="amount">299</span>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ Ιστοσελίδα 5 σελίδων</li>
+                        <li>✓ Responsive Design</li>
+                        <li>✓ Βασικό SEO</li>
+                        <li>✓ Φόρμα επικοινωνίας</li>
+                        <li>✓ Hosting 1 χρόνο</li>
+                    </ul>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal-form">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+                        <input type="hidden" name="item_name" value="Egrow - Starter Package">
+                        <input type="hidden" name="amount" value="299">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <input type="hidden" name="return" value="https://yourdomain.com/success">
+                        <input type="hidden" name="cancel_return" value="https://yourdomain.com">
+                        <button type="submit" class="package-button">Παραγγελία</button>
+                    </form>
+                </div>
+
+                <!-- Professional Package -->
+                <div class="package-card professional">
+                    <div class="package-badge">Δημοφιλές</div>
+                    <div class="package-header">
+                        <h3>Professional</h3>
+                        <p class="package-subtitle">Για αναπτυσσόμενες επιχειρήσεις</p>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">€</span>
+                        <span class="amount">799</span>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ Ιστοσελίδα 10 σελίδων</li>
+                        <li>✓ Responsive Design</li>
+                        <li>✓ Προχωρημένο SEO</li>
+                        <li>✓ Ενταγμένο eShop (20 προϊόντα)</li>
+                        <li>✓ Payment Gateway</li>
+                        <li>✓ Analytics</li>
+                        <li>✓ Hosting 1 χρόνο</li>
+                    </ul>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal-form">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+                        <input type="hidden" name="item_name" value="Egrow - Professional Package">
+                        <input type="hidden" name="amount" value="799">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <input type="hidden" name="return" value="https://yourdomain.com/success">
+                        <input type="hidden" name="cancel_return" value="https://yourdomain.com">
+                        <button type="submit" class="package-button professional-btn">Παραγγελία</button>
+                    </form>
+                </div>
+
+                <!-- Enterprise Package -->
+                <div class="package-card enterprise">
+                    <div class="package-header">
+                        <h3>Enterprise</h3>
+                        <p class="package-subtitle">Για μεγάλες επιχειρήσεις</p>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">€</span>
+                        <span class="amount">1999</span>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ Ιστοσελίδα unlimited σελίδες</li>
+                        <li>✓ Πλήρες eShop</li>
+                        <li>✓ Προχωρημένο SEO</li>
+                        <li>✓ Πολλαπλά Payment Gateways</li>
+                        <li>✓ CRM Integration</li>
+                        <li>✓ Marketing Automation</li>
+                        <li>✓ 24/7 Support</li>
+                        <li>✓ Hosting + CDN</li>
+                    </ul>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal-form">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+                        <input type="hidden" name="item_name" value="Egrow - Enterprise Package">
+                        <input type="hidden" name="amount" value="1999">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <input type="hidden" name="return" value="https://yourdomain.com/success">
+                        <input type="hidden" name="cancel_return" value="https://yourdomain.com">
+                        <button type="submit" class="package-button">Παραγγελία</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Επικοινωνήστε μαζί μας</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@egrow.gr">info@egrow.gr</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Τηλέφωνο</h3>
+                        <p><a href="tel:+302101234567">+30 210 123 4567</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Τοποθεσία</h3>
+                        <p>Αθήνα, Ελλάδα</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Egrow. Όλα τα δικαιώματα διατηρούνται.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

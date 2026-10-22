@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ευχαριστούμε! - Egrow</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .success-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .success-content {
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            max-width: 600px;
+            animation: slideInUp 0.6s ease-out;
+        }
+
+        .success-icon {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            animation: bounce 0.8s ease-out;
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(-30px); opacity: 0; }
+            70% { transform: translateY(10px); }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .success-content h1 {
+            color: var(--secondary-color);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .success-content p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .success-details {
+            background: rgba(0, 102, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            border: 1px solid var(--primary-color);
+        }
+
+        .success-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .success-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 102, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-content">
+            <div class="success-icon">✅</div>
+            <h1>Ευχαριστούμε!</h1>
+            <p>Η πληρωμή σας ολοκληρώθηκε με επιτυχία.</p>
+            
+            <div class="success-details">
+                <p><strong>Θα λάβετε email επιβεβαίωσης</strong> στο ταχυδρομείο σας σύντομα με τις λεπτομέρειες της παραγγελίας.</p>
+                <p style="margin-bottom: 0;">Ο ειδικός μας θα επικοινωνήσει μαζί σας εντός 24 ωρών.</p>
+            </div>
+
+            <a href="index.html" class="success-button">Επιστροφή στην Αρχική</a>
+        </div>
+    </div>
+</body>
+</html>

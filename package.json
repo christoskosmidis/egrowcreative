@@ -1,0 +1,12 @@
+{
+  "name": "egrow-website",
+  "version": "1.0.0",
+  "description": "Modern website and eShop services by Egrow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx http-server -p 8000 -o"
+  },
+  "keywords": ["websites", "eshop", "services"],
+  "author": "Egrow",
+  "license": "MIT"
+}
